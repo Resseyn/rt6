@@ -2,8 +2,8 @@
 
 1. Клонировать репозиторий:
    ```bash
-   git clone https://github.com/Resseyn/jwt-auth-app.git
-   cd jwt-auth-app
+   git clone https://github.com/Resseyn/rt6
+   cd rt6
    ```
 
 2. Установить зависимости:
