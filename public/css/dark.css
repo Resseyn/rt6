@@ -1,0 +1,71 @@
+/* Темная тема */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .auth-container,
+  .profile-container {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  input {
+    background-color: #2d2d2d;
+    color: #e0e0e0;
+    border: 1px solid #3d3d3d;
+  }
+  
+  input:focus {
+    border-color: #4361ee;
+    outline: none;
+  }
+  
+  .btn-outline {
+    border-color: #5a75ee;
+    color: #5a75ee;
+  }
+  
+  .btn-outline:hover {
+    background-color: #5a75ee;
+  }
+  
+  .tab.active {
+    border-bottom-color: #5a75ee;
+    color: #5a75ee;
+  }
+  
+  .profile-info,
+  .data-section {
+    background-color: #292929;
+    border: 1px solid #333;
+  }
+  
+  .data-table th {
+    background-color: #333;
+  }
+  
+  .data-table td {
+    border-bottom-color: #444;
+  }
+  
+  .data-table tr:nth-child(even) {
+    background-color: #252525;
+  }
+  
+  .data-table tr:hover {
+    background-color: #353535;
+  }
+  
+  /* Переопределяем цвета сообщений для темной темы */
+  .message.error {
+    background-color: #3f0f0f;
+    color: #ff8a8a;
+    border: 1px solid #662222;
+  }
+  
+  .message.success {
+    background-color: #0f3f0f;
+    color: #8aff8a;
+    border: 1px solid #226622;
+  }
